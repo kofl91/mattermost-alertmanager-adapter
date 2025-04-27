@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mattermost-alerts/internal/alertmanager"
-	"mattermost-alerts/internal/mattermost"
+	"mattermost-alertmanager-adapter/internal/alertmanager"
+	"mattermost-alertmanager-adapter/internal/mattermost"
 )
 
 func TestMapAlertToMattermostMessage(t *testing.T) {

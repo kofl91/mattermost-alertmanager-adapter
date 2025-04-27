@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"os"
 
-	"mattermost-alerts/internal/adapter"
-	"mattermost-alerts/internal/alertmanager"
-	"mattermost-alerts/internal/mattermost"
+	"mattermost-alertmanager-adapter/internal/adapter"
+	"mattermost-alertmanager-adapter/internal/alertmanager"
+	"mattermost-alertmanager-adapter/internal/mattermost"
 )
 
 func main() {

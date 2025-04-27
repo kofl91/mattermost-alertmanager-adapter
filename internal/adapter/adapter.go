@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"mattermost-alerts/internal/alertmanager"
-	"mattermost-alerts/internal/mattermost"
+	"mattermost-alertmanager-adapter/internal/alertmanager"
+	"mattermost-alertmanager-adapter/internal/mattermost"
 )
 
 // MapAlertToMattermostMessage takes an Alertmanager alert and creates a Mattermost message payload.
