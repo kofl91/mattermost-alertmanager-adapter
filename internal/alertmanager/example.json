@@ -1,0 +1,11 @@
+{
+    "alerts": [
+      {
+        "status": "firing",
+        "labels": {"alertname": "HighCPUUsage", "instance": "server1"},
+        "annotations": {"summary": "CPU usage above 90%"},
+        "generatorURL": "http://prometheus/graph?g0.expr=cpu"
+      }
+    ]
+  }
+  
